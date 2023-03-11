@@ -1,0 +1,46 @@
+/*
+========================
+Custom Font Style
+========================
+*/
+
+@font-face {
+    font-family: "Roboto Reguler";
+    src: url('/font/roboto/Roboto-Regular.ttf');
+}
+
+
+/*
+========================
+Global Style
+========================
+*/
+
+/* Design scrollbar */
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar:hover {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px #0000004d;
+    background: #666;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #232323;
+}
+
+/* End Design scrollbar */
+
+body {
+    background-color: #454343 !important;
+    background-image: url('/icon/code-solid.svg');
+    background-size: 8%;
+    background-position: center;
+    font-family: Roboto Reguler !important;
+}

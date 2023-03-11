@@ -1,0 +1,382 @@
+/*
+========================
+Home Page Style
+========================
+*/
+
+.divider {
+  position: absolute;
+  margin: -25px 0px 0px 0px;
+}
+
+.profile-img {
+  top: 35vh;
+  left: 43%;
+  position: absolute;
+  z-index: 111;
+}
+
+.profile-img img {
+  width: 200px;
+}
+
+.profile-box.card {
+  height: 50vh;
+  margin: 50vh 0px 0px 0px;
+  padding: 100px 20px 20px 20px;
+  border-radius: 0;
+}
+
+.profile-detail {
+  margin: 0px auto;
+  text-align: center;
+}
+
+.text-name {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 10px 0px;
+}
+
+.text-job {
+  font-size: 22px;
+  margin: 5px 0px;
+}
+
+.text-country {
+  font-size: 16px;
+  margin: 5px 0px;
+}
+
+.social-box a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.social-box-item {
+  font-size: 24px;
+  margin: 5px 2px;
+  list-style: none;
+  display: inline-block;
+}
+
+.social-btn {
+  background: #405d2c !important;
+  color: #ffffff !important;
+  width: 56px;
+}
+
+.social-btn:hover {
+  color: #ffff00 !important;
+}
+
+.social-box-text {
+  font-size: 14px;
+}
+
+.item-wrapper-title {
+  margin: 10px 0px 30px 0px;
+}
+
+.item-wrapper {
+  width: 80%;
+  margin: 0px auto;
+  padding: 200px 0px 0px 0px;
+  text-align: center;
+}
+
+.favorite.card {
+  color: #405d2c;
+  min-width: 250px;
+  max-width: 250px;
+  margin: 10px 10px;
+  padding: 20px;
+  font-size: 100px;
+  display: inline-block;
+  border-radius: 50px 12px;
+}
+
+.togle-carousel {
+  width: 48px;
+}
+
+.carousel-text {
+  margin: 20px 0px 0px 0px;
+}
+
+.carousel-text h5 {
+  font-weight: bold;
+}
+
+.carousel-item-img {
+  border-radius: 20px;
+}
+
+.text-quote.box {
+  width: 80%;
+  font-size: 50px;
+  margin: 100px auto 0px auto;
+}
+
+.text-quote.focus {
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.bottom-wrapper {
+  background: #405d2c;
+  color: #ffffff;
+  min-height: 40vh;
+  max-height: 100%;
+}
+
+.link-list-active {
+  margin-left: -25vh;
+}
+
+.link-list {
+  width: 25vh;
+  min-height: fit-content;
+  max-height: 100%;
+  background: #ffffff;
+  color: #000000;
+  margin-top: 40vh;
+  padding: 1rem 0.5rem;
+  position: fixed;
+  top: 0;
+  border: 1px solid #405d2c;
+  border-radius: 0px 10px 0px 0px;
+  transition: 1s;
+  z-index: 1111111111111111;
+}
+
+.link-list li {
+  height: 25px;
+  background: #405d2c;
+  color: #ffffff;
+  font-size: 14px;
+  list-style: none;
+  margin: 1rem 0rem;
+  padding: 0.2rem 0.8rem;
+  border-radius: 10px;
+}
+
+.link-list li>a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.btn-link-list {
+  width: 5vh;
+  text-align: center;
+  margin: -1vh -6vh 0px 0px !important;
+  border-radius: 0px 15px 15px 0px !important;
+  float: right;
+}
+
+.btn-whatsapp {
+  width: 8vh;
+  height: 8vh;
+  background: #405d2c;
+  color: #ffffff;
+  font-size: 2.2rem;
+  text-align: center;
+  margin: 75vh 3rem 3rem 0px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  position: fixed;
+  z-index: 11111111111111111;
+  top: 0;
+  right: 0;
+}
+
+.btn-whatsapp a {
+  color: #ffffff;
+}
+
+/*
+========================
+Detail Page Style
+========================
+*/
+
+.container-fluid.detail {
+  margin: 15px 0px;
+  padding: 0px 35px;
+}
+
+.back-togle-detail {
+  color: #ffffff;
+  font-size: 36px;
+  padding: 0px 5px 0px 15px;
+}
+
+.back-togle-detail a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.detail-page.card {
+  border-radius: 0px 20px 0px 20px;
+}
+
+.carousel-item-img.detail {
+  border-radius: 0;
+}
+
+#tab-detail {
+  border-radius: 0px 20px 0px 20px;
+}
+
+#tabs-1,
+#tabs-2 {
+  padding: 5px;
+}
+
+#tabs-3 {
+  min-height: 85vh;
+  max-height: 100%;
+}
+
+.detail-description {
+  text-align: center;
+  padding: 15px 0px;
+}
+
+.detail-description a {
+  color: #000000;
+  text-decoration: none;
+}
+
+/*
+========================
+**********************
+Mobile Responsive Style
+**********************
+========================
+*/
+
+@media screen and (max-width: 884px) {
+
+  /*
+========================
+Home Page Style
+========================
+*/
+
+  .profile-img {
+    left: 28%;
+  }
+
+  .profile-img img {
+    width: 150px;
+  }
+
+  .profile-box.card {
+    min-height: 65vh;
+    max-height: 100%;
+    padding: 80px 20px 20px 20px;
+  }
+
+  .text-name {
+    font-size: 36px;
+    margin: 8px 0px;
+  }
+
+  .text-job {
+    font-size: 18px;
+    margin: 5px 0px;
+  }
+
+  .text-country {
+    font-size: 14px;
+    margin: 5px 0px;
+  }
+
+  .social-box-item {
+    font-size: 22px;
+    margin: 4px;
+  }
+
+  .social-box-text {
+    font-size: 13px;
+  }
+
+  .item-wrapper-title {
+    margin: 10px 0px 20px 0px;
+  }
+
+  .item-wrapper {
+    width: 80%;
+    padding: 75px 0px 0px 0px;
+  }
+
+  .favorite.card {
+    min-width: 200px;
+    max-width: 200px;
+  }
+
+  .carousel {
+    width: 120%;
+    margin-left: -10%;
+  }
+
+  .togle-carousel {
+    width: 26px;
+  }
+
+  .text-quote.box {
+    width: 95%;
+    font-size: 25px;
+    margin: 40px auto 0px auto;
+  }
+
+  .text-quote.focus {
+    font-weight: bold;
+    font-size: 35px;
+  }
+
+  .bottom-wrapper {
+    min-height: 30vh;
+    max-height: 100%;
+  }
+
+  .link-list-active {
+    margin-left: -30vh;
+  }
+
+  .link-list {
+    width: 30vh;
+  }
+
+  .btn-whatsapp {
+    font-size: 2rem;
+    margin: 76vh 2rem 1rem 0px;
+  }
+
+  /*
+========================
+Detail Page Style
+========================
+*/
+
+  .container-fluid.detail {
+    margin: 5px 0px;
+    padding: 0px 5px;
+  }
+
+  .col.detail {
+    width: 100%;
+  }
+
+  .back-togle-detail {
+    text-align: center;
+    font-size: 28px;
+    padding: 0px 5px;
+  }
+
+  .detail-page.card {
+    margin: 0px;
+  }
+
+}
